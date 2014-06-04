@@ -17,6 +17,8 @@ if [ ! type -P md2min >/dev/null 2>&1 ]; then
   exit 0
 fi
 
+mkdir -p "$TOPDIR/html"
+
 (
 export SRC="$TOPDIR/src"
 export HTML="$TOPDIR/html"
