@@ -4,9 +4,9 @@
 
 ## 联系方式
 
-- 博客网站：www.hellogcc.org
+- [博客网站](http://www.hellogcc.org)
 - 在线讨论问题：IRC, freenode, #hellogcc房间
-- 邮件列表：http://www.freelists.org/list/hellogcc(发信需要先订阅)
+- [邮件列表](http://www.freelists.org/list/hellogcc) (发信需要先订阅)
  
 ## 授权许可
 
@@ -14,8 +14,9 @@
 
 ## 致谢
 
+- 各位参与者
 
 
 ## 开始阅读
-[开始阅读](<https://github.com/hellogcc/100-gdb-tips/blob/master/ebook/index.md>)
+[开始阅读](<https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md>)
 
