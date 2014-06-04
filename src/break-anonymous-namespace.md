@@ -1,6 +1,6 @@
 # 在匿名空间设置断点
 
-# 例子
+## 例子
 	namespace Foo
 	{
 	  void foo()
@@ -26,5 +26,6 @@
 	(gdb) b (anonymous namespace)::bar
 
 ## 贡献者
+
 xmj
 
