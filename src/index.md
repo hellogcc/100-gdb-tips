@@ -3,3 +3,4 @@
 * [打印STL容器的内容](print-STL-container.md)
 * [打印大数组](print-large-array.md)
 * [保存断点](save-breakpoints.md)
+* [在Solaris上使用maintenance命令查看线程信息](use-maintenance-query_threads-info-on-Solaris.md)
