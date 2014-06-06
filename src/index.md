@@ -1,4 +1,5 @@
 * [在匿名空间设置断点](break-anonymous-namespace.md)
-* [gdb退出时不显示提示信息](Don't-show-confirmation-prompt-when-quitting-gdb.md)
+* [gdb退出时不显示提示信息](don't-show-confirmation-prompt-when-quitting-gdb.md)
 * [打印STL容器的内容](print-STL-container.md)
 * [打印大数组](print-large-array.md)
+* [在Solaris上使用maintenance命令查看线程信息](use-maintenance-query_threads-info-on-Solaris.md)
