@@ -1,5 +1,5 @@
 * [在匿名空间设置断点](break-anonymous-namespace.md)
-* [gdb退出时不显示提示信息](Don't-show-confirmation-prompt-when-quitting-gdb.md)
+* [gdb退出时不显示提示信息](quit-gdb-sliently.md)
 * [打印STL容器的内容](print-STL-container.md)
 * [打印大数组](print-large-array.md)
 * [保存断点](save-breakpoints.md)

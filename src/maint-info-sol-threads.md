@@ -1,6 +1,6 @@
 # 在Solaris上使用maintenance命令查看线程信息
 
-## 例子
+
 
 
 ## 技巧
