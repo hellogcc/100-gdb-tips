@@ -2,7 +2,7 @@
 
 
 # 技巧
-在用gdb调试程序时，我们有时想让被调试的进程产生core dump文件，记录现在进程的状态，以供以后分析。可以用“generate-core-file”命令来产生core dump文件: 
+在用gdb调试程序时，我们有时想让被调试的进程产生core dump文件，记录现在进程的状态，以供以后分析。可以用“generate-core-file”命令来产生core dump文件：
 
 	(gdb) help generate-core-file
 	Save a core file with the current state of the debugged process.
