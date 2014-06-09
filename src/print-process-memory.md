@@ -38,7 +38,7 @@
 
 
 
-首先输出了进程的flag，接着是进程的内存映射信息  
+首先输出了进程的flags，接着是进程的内存映射信息。  
 参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/SVR4-Process-Information.html#index-info-proc-exe).
 
 此外，也可以用"i files"（还有一个同样作用的命令：“i target”）命令，它可以更详细地输出进程的内存信息，包括引用的动态链接库等等，例如：
