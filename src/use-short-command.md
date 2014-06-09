@@ -16,6 +16,15 @@
 	u -> until
 	p -> print
 	c -> continue
+	i -> info
+	f -> frame
+	d -> delete
+
+也有使用两个字母的，比如：  
+
+	bt -> backtrace
+	si -> stepi
+	ni -> nexti
 
 另外，如果直接按回车键，会重复执行上一次的命令。
 
