@@ -16,3 +16,4 @@
 #其它
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [为调试进程产生core dump文件](generate-core-dump-file.md)
+* [使用命令的缩写形式](use-short-command.md)
