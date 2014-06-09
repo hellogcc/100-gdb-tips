@@ -10,6 +10,7 @@
 * [打印STL容器中的内容](print-STL-container.md)
 * [打印大数组中的内容](print-large-array.md)
 * [打印函数局部变量的值](print-local-variables.md)
+* [打印进程内存信息](print-process-memory.md)
 
 # 多线程
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
