@@ -1,6 +1,6 @@
 # 《100个gdb小技巧》
 
-一本关于gdb使用小技巧的手册。100，在这里可能只是表明很多；具体的数目取决于您的参与和贡献。
+一个关于gdb使用小技巧的文档。100，在这里可能只是表明很多；具体的数目取决于您的参与和贡献。
 
 ## 如何参与
 
@@ -24,9 +24,13 @@
 - 在线讨论问题：IRC, freenode, #hellogcc房间
 - [邮件列表](http://www.freelists.org/list/hellogcc) (发信需要先订阅)
  
+## 版权
+
+本文档版权归贡献者所有。
+
 ## 授权许可
 
-目前，本手册使用的是[GNU Free Documentation License](http://www.gnu.org/licenses/fdl.html)。
+本文档使用的是[GNU Free Documentation License](http://www.gnu.org/licenses/fdl.html)。
 
 ## 致谢
 
