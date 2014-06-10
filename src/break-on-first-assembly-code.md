@@ -42,7 +42,7 @@
 	
 
 
-可以发现程序停在了第三条汇编指令（箭头所指位置）。如果要把断点设置在汇编指令层次函数的开头，要使用如下命令：“b *func”，例如：
+可以看到程序停在了第三条汇编指令（箭头所指位置）。如果要把断点设置在汇编指令层次函数的开头，要使用如下命令：“b *func”，例如：
 
 	(gdb) b *main
 	Breakpoint 1 at 0x8050c0f: file a.c, line 8.
@@ -64,9 +64,8 @@
 	   0x08050c1d <+14>:    ret
 	End of assembler dump.
 
-可以程序停在了第一条汇编指令（箭头所指位置）。
+可以看到程序停在了第一条汇编指令（箭头所指位置）。
 
-详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Machine-Code.html)
 
 ## 贡献者
 
