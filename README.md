@@ -8,7 +8,8 @@
 
 增加一个小技巧的步骤：
 
-1. 在src目录下新增一个md文件，参照现有文件的格式风格，编写一个小技巧
+1. 在src目录下新增一个md文件，参照现有文件的格式风格，编写一个小技巧  
+markdown语法参见 http://wowubuntu.com/markdown/  
 md文件编写可以使用在线所见即所得编辑器 https://www.zybuluo.com/mdeditor
 2. 在index.md中为新md文件增加一个索引，可以放到已有分类中，或增加一个分类
 3. 如果预览下没有问题，OK!
