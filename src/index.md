@@ -15,6 +15,9 @@
 # 多线程
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 
+# 汇编
+* [设置汇编指令格式](set-disassembly-flavor.md)
+
 #其它
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [为调试进程产生core dump文件](generate-core-dump-file.md)
