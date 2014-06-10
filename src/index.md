@@ -12,6 +12,9 @@
 * [打印函数局部变量的值](print-local-variables.md)
 * [打印进程内存信息](print-process-memory.md)
 
+# 多进程
+* [调试子进程](set-follow-fork-mode-child.md)
+
 # 多线程
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 
