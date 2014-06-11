@@ -10,21 +10,24 @@
 其中许多常用命令只使用第一个字母就可以，比如：
 
 	b -> break
-	r -> run
+	c -> continue
+	d -> delete
+	f -> frame
+	i -> info
+    l -> list
 	n -> next
+	p -> print
+	r -> run
 	s -> step
 	u -> until
-	p -> print
-	c -> continue
-	i -> info
-	f -> frame
-	d -> delete
 
-也有使用两个字母的，比如：  
+也有使用两个或几个字母的，比如：  
 
 	bt -> backtrace
-	si -> stepi
 	ni -> nexti
+	si -> stepi
+	fin -> finish
+	disas -> disassemble
 
 另外，如果直接按回车键，会重复执行上一次的命令。
 
