@@ -14,6 +14,7 @@
 	d -> delete
 	f -> frame
 	i -> info
+	j -> jump
     l -> list
 	n -> next
 	p -> print
@@ -24,11 +25,12 @@
 也有使用两个或几个字母的，比如：  
 
 	bt -> backtrace
+	disas -> disassemble
+	fin -> finish
 	ni -> nexti
 	si -> stepi
-	fin -> finish
-	disas -> disassemble
-
+	tb -> tbreak
+	
 另外，如果直接按回车键，会重复执行上一次的命令。
 
 ## 贡献者
