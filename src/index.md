@@ -13,6 +13,7 @@
 * [打印进程内存信息](print-process-memory.md)
 * [打印静态变量的值](print-static-variables.md)
 * [指定程序的输入输出设备](set-io-tty.md)
+* [每行打印一个结构体成员](set-print-pretty-on.md)
 
 # 多进程
 * [调试子进程](set-follow-fork-mode-child.md)
