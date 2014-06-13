@@ -73,7 +73,7 @@
 
 可以看到程序执行到第17行：子进程打印“hello world”。 
 
-参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Forks.html)
+这个命令目前Linux支持，其它很多操作系统都不支持，使用时请注意。参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Forks.html)
 
 ## 贡献者
 
