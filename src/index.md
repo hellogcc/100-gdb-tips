@@ -22,6 +22,10 @@
 # 多线程
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 
+# core dump文件
+* [为调试进程产生core dump文件](generate-core-dump-file.md)
+* [加载可执行程序和core dump文件](load-executable-and-coredump-file.md)
+
 # 汇编
 * [设置汇编指令格式](set-disassembly-flavor.md)
 * [在函数的第一条汇编指令打断点](break-on-first-assembly-code.md)
@@ -30,6 +34,5 @@
 
 #其它
 * [支持预处理器宏信息](preprocessor-macro.md)
-* [为调试进程产生core dump文件](generate-core-dump-file.md)
 * [使用命令的缩写形式](use-short-command.md)
 * [在gdb中执行shell命令和make](run-shell-command.md)
