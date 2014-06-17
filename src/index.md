@@ -39,3 +39,4 @@
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [使用命令的缩写形式](use-short-command.md)
 * [在gdb中执行shell命令和make](run-shell-command.md)
+* [保存历史命令](save-history-commands.md)
