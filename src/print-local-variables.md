@@ -86,6 +86,14 @@
 
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Backtrace.html)
 
+
+如果只是想打印当前函数局部变量的值，可以使用如下命令：
+
+	(gdb) info locals
+	a = 32767
+
+详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Frame-Info.html#index-info-locals)
+
 ## 贡献者
 
 nanxiao
