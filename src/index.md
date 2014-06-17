@@ -17,6 +17,7 @@
 * [每行打印一个结构体成员](set-print-pretty-on.md)
 * [按照派生类型打印对象](print-derived-type.md)
 * [打印数组的索引下标](print-array-indexes.md)
+* [打印变量的类型和所在文件](print-variable-info.md)
 
 # 多进程
 * [调试子进程](set-follow-fork-mode-child.md)
