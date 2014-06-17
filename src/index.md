@@ -16,6 +16,7 @@
 * [指定程序的输入输出设备](set-io-tty.md)
 * [每行打印一个结构体成员](set-print-pretty-on.md)
 * [按照派生类型打印对象](print-derived-type.md)
+* [打印数组的索引下标](print-array-indexes.md)
 
 # 多进程
 * [调试子进程](set-follow-fork-mode-child.md)
