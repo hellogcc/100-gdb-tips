@@ -25,6 +25,7 @@
 * [调试子进程](set-follow-fork-mode-child.md)
 
 # 多线程
+* [查看线程信息](print-threads.md)
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 
 # core dump文件
