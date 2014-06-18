@@ -55,15 +55,20 @@
 	(gdb) p p
 	$2 = (Circle &) @0x7fffffffde90: {<Shape> = {_vptr.Shape = 0x400a80 <vtable for Circle+16>}, radius = 1}
 
-也可以直接打印对象实例的实际类型：
+当打印对象类型信息时，该设置也会起作用：
 
-	(gdb) set print object off
+	(gdb) whatis p
+	type = Shape &
 	(gdb) ptype p
 	type = class Shape {
 	  public:
 	    virtual void draw(void);
 	} &
+
 	(gdb) set print object on
+	(gdb) whatis p
+	type = /* real type = Circle & */
+	Shape &
 	(gdb) ptype p
 	type = /* real type = Circle & */
 	class Shape {
@@ -76,5 +81,6 @@
 ## 贡献者
 
 xmj
+
 xanpeng
 
