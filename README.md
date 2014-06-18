@@ -2,6 +2,9 @@
 
 一个关于gdb使用小技巧的文档。100，在这里可能只是表明很多；具体的数目取决于您的参与和贡献。
 
+## 在线阅读
+[开始阅读](<https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md>)
+
 ## 如何参与
 
 直接发PULL REQUEST，或与我们联系。
@@ -37,8 +40,4 @@ md文件编写可以使用在线所见即所得编辑器 https://www.zybuluo.com
 ## 致谢
 
 - 各位参与者
-
-
-## 开始阅读
-[开始阅读](<https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md>)
 
