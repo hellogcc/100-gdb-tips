@@ -11,6 +11,8 @@
 	(gdb) cd tmp
 	Working directory /home/xmj/tmp.
 
+详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Working-Directory.html#Working-Directory)
+
 ## 贡献者
 
 xmj

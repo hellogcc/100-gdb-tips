@@ -16,6 +16,8 @@
 
 	(gdb) make CFLAGS="-g -O0"
 
+详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Shell-Commands.html#Shell-Commands)
+
 ## 贡献者
 
 xmj
