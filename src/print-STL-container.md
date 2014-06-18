@@ -51,16 +51,18 @@ gdb 7.0之后，可以使用gcc提供的python脚本，来改善显示结果：
 		register_libstdcxx_printers (None)
 		end
 
+（源自https://sourceware.org/gdb/wiki/STLSupport）
+
 ## 技巧二
 
-`p vec`的输出无法阅读，但能给我们提示，从而得到无需脚本支持的本技巧：
+`p vec`的输出无法阅读，但能给我们提示，从而得到无需脚本支持的技巧：
 
 	(gdb) p *(vec._M_impl._M_start)@vec.size()
 	$2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 ## 贡献者
 
-xmj（源自https://sourceware.org/gdb/wiki/STLSupport）
-xanpeng
+xmj
 
+xanpeng
 
