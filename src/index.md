@@ -1,6 +1,7 @@
 # 启动和退出
 * [启动时不显示提示信息](start-gdb-silently.md)
 * [退出时不显示提示信息](quit-gdb-silently.md)
+* [配置gdb init文件](config-gdbinit.md)
 
 # 断点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
