@@ -47,4 +47,6 @@
 * [保存历史命令](save-history-commands.md)
 * [设置命令提示符](set-prompt.md)
 * [进入不带调试信息的函数](set-step-mode-on.md)
+* [设置被调试程序的参数](set-program-args.md)
+
 
