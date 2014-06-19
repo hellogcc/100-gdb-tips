@@ -12,7 +12,7 @@
 	f -> frame
 	i -> info
 	j -> jump
-    l -> list
+	l -> list
 	n -> next
 	p -> print
 	r -> run
