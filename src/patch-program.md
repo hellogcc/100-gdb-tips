@@ -10,7 +10,7 @@
 	  if (n != 0)
 	    puts ("Try again?\nAll you need is a dollar, and a dream.");
 	  else
-	    puts ("You win 3000$!");
+	    puts ("You win $3000!");
 	}
 	
 	int main (void)
@@ -60,7 +60,7 @@ gdb不仅可以用来调试程序，还可以修改程序的二进制代码。
 	   0x000000000040065d <+27>:	eb 0a	jmp    0x400669 <drawing+39>
 	
 	8	  else
-	9	    puts ("You win 3000$!");
+	9	    puts ("You win $3000!");
 	   0x000000000040065f <+29>:	bf 12 08 40 00	mov    $0x400812,%edi
 	   0x0000000000400664 <+34>:	e8 a7 fe ff ff	callq  0x400510 <puts@plt>
 	
@@ -91,7 +91,7 @@ gdb不仅可以用来调试程序，还可以修改程序的二进制代码。
 	   0x000000000040065d <+27>:	eb 0a	jmp    0x400669 <drawing+39>
 	
 	8	  else
-	9	    puts ("You win 3000$!");
+	9	    puts ("You win $3000!");
 	   0x000000000040065f <+29>:	bf 12 08 40 00	mov    $0x400812,%edi
 	   0x0000000000400664 <+34>:	e8 a7 fe ff ff	callq  0x400510 <puts@plt>
 	
@@ -107,7 +107,7 @@ gdb不仅可以用来调试程序，还可以修改程序的二进制代码。
 
 	$ ./a.out 
 	Your number is 2
-	You win 3000$!
+	You win $3000!
 
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Patching.html#Patching)
 
