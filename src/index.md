@@ -6,11 +6,11 @@
 
 # 断点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
-* [保存已经设置的断点](save-breakpoints.md)
-* [设置临时断点](set-tbreak.md)
 * [在程序地址上打断点](break-on-address.md)
 * [在程序入口处打断点](break-on-entry.md)
 * [在文件行号上打断点](break-on-linenum.md)
+* [保存已经设置的断点](save-breakpoints.md)
+* [设置临时断点](set-tbreak.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
@@ -18,11 +18,11 @@
 * [打印函数局部变量的值](print-local-variables.md)
 * [打印进程内存信息](print-process-memory.md)
 * [打印静态变量的值](print-static-variables.md)
-* [指定程序的输入输出设备](set-io-tty.md)
-* [每行打印一个结构体成员](set-print-pretty-on.md)
-* [按照派生类型打印对象](print-derived-type.md)
 * [打印数组的索引下标](print-array-indexes.md)
 * [打印变量的类型和所在文件](print-variable-info.md)
+* [每行打印一个结构体成员](set-print-pretty-on.md)
+* [按照派生类型打印对象](print-derived-type.md)
+* [指定程序的输入输出设备](set-io-tty.md)
 
 # 多进程/线程
 * [调试子进程](set-follow-fork-mode-child.md)
@@ -41,12 +41,12 @@
 * [打印寄存器的值](print-registers.md)
 
 # 其它
+* [保存历史命令](save-history-commands.md)
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [使用命令的缩写形式](use-short-command.md)
 * [在gdb中执行shell命令和make](run-shell-command.md)
 * [在gdb中执行cd和pwd命令](run-cd-pwd.md)
-* [保存历史命令](save-history-commands.md)
 * [设置命令提示符](set-prompt.md)
-* [进入不带调试信息的函数](set-step-mode-on.md)
 * [设置被调试程序的参数](set-program-args.md)
+* [进入不带调试信息的函数](set-step-mode-on.md)
 
