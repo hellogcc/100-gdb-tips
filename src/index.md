@@ -46,4 +46,5 @@
 * [在gdb中执行cd和pwd命令](run-cd-pwd.md)
 * [保存历史命令](save-history-commands.md)
 * [设置命令提示符](set-prompt.md)
+* [进入不带调试信息的函数](set-step-mode-on.md)
 
