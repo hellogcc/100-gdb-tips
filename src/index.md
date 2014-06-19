@@ -4,6 +4,10 @@
 * [配置gdb init文件](config-gdbinit.md)
 * [命令行选项的格式](option-format.md)
 
+# 函数
+* [是否进入带调试信息的函数](step-and-next-function.md)
+* [进入不带调试信息的函数](set-step-mode-on.md)
+
 # 断点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
 * [在程序地址上打断点](break-on-address.md)
@@ -49,6 +53,5 @@
 * [在gdb中执行cd和pwd命令](run-cd-pwd.md)
 * [设置命令提示符](set-prompt.md)
 * [设置被调试程序的参数](set-program-args.md)
-* [是否进入带调试信息的函数](step-and-next-function.md)
-* [进入不带调试信息的函数](set-step-mode-on.md)
+
 
