@@ -25,6 +25,7 @@
 * [打印变量的类型和所在文件](print-variable-info.md)
 
 # 多进程/线程
+* [调试已经运行的进程](attach-process.md)
 * [调试子进程](set-follow-fork-mode-child.md)
 * [查看线程信息](print-threads.md)
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
