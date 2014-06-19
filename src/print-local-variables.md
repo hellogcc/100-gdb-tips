@@ -38,7 +38,7 @@
 		return 0;
 	}
 
-## 技巧
+## 技巧一
 
 如果要打印函数局部变量的值，可以使用“bt full”命令（bt是backtrace的缩写）。首先我们在函数fun_a里打上断点，当程序断住时，显示调用栈信息：
 
@@ -86,11 +86,12 @@
 
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Backtrace.html)
 
+## 技巧二
 
 如果只是想打印当前函数局部变量的值，可以使用如下命令：
 
 	(gdb) info locals
-	a = 32767
+	a = 0
 
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Frame-Info.html#index-info-locals)
 
@@ -98,5 +99,5 @@
 
 nanxiao
 
-
+xmj
 

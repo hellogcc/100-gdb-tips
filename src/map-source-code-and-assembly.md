@@ -18,9 +18,7 @@
 	        return 0;
 	}
 
-
-
-## 技巧
+## 技巧一
 
 可以用“disas /m fun”（disas是disassemble命令缩写）命令将函数代码和汇编指令映射起来，以上面代码为例：
 
@@ -61,12 +59,14 @@
 	
 	End of assembler dump.
 
-	
-
-
 可以看到每一条C语句下面是对应的汇编代码。
 
-	
+## 技巧二
+
+如果只想查看某一行所对应的地址范围，可以：
+
+	(gdb) i line 13
+	Line 13 of "foo.c" starts at address 0x4004e9 <main+37> and ends at 0x40050c <main+72>.	
 
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Machine-Code.html)
 
@@ -74,5 +74,5 @@
 
 nanxiao
 
-
+xmj
 
