@@ -8,6 +8,7 @@
 * [设置临时断点](set-tbreak.md)
 * [在程序地址上打断点](break-on-address.md)
 * [在程序入口处打断点](break-on-entry.md)
+* [在文件行号上打断点](break-on-linenum.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
