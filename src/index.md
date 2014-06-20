@@ -5,6 +5,7 @@
 * [命令行选项的格式](option-format.md)
 
 # 函数
+* [列出函数的名字](info-function.md)
 * [是否进入带调试信息的函数](step-and-next-function.md)
 * [进入不带调试信息的函数](set-step-mode-on.md)
 
