@@ -26,6 +26,10 @@ gdb在启动时会显示如上类似的提示信息。
 	$ gdb -q
 	(gdb)
 
+你可以在~/.bashrc中，为gdb设置一个别名：
+
+	alias gdb="gdb -q"
+
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Invoking-GDB.html#Invoking-GDB)
 
 ## 贡献者
