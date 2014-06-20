@@ -37,7 +37,7 @@
 	$2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 
-
+详情参见[gdb手册](https://sourceware.org/gdb/current/onlinedocs/gdb/Arrays.html#Arrays)
 ## 贡献者
 
 nanxiao

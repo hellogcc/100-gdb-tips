@@ -4,6 +4,9 @@
 * [启动时不显示提示信息](start-gdb-silently.md)
 * [退出时不显示提示信息](quit-gdb-silently.md)
 
+# 变量
+* [设置变量的值](set-var.md)
+
 # 函数
 * [列出函数的名字](info-function.md)
 * [是否进入带调试信息的函数](step-and-next-function.md)
