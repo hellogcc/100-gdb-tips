@@ -4,6 +4,9 @@
 * [配置gdb init文件](config-gdbinit.md)
 * [命令行选项的格式](option-format.md)
 
+# 显示相关信息
+* [显示gdb版本信息](show-version.md)
+
 # 函数
 * [列出函数的名字](info-function.md)
 * [是否进入带调试信息的函数](step-and-next-function.md)
