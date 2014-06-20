@@ -1,12 +1,8 @@
-# 启动和退出
-* [启动时不显示提示信息](start-gdb-silently.md)
-* [退出时不显示提示信息](quit-gdb-silently.md)
-* [配置gdb init文件](config-gdbinit.md)
-* [命令行选项的格式](option-format.md)
-
-# 显示相关信息
+# 信息显示
 * [显示gdb版本信息](show-version.md)
 * [显示gdb版权相关信息](show-copying-warranty.md)
+* [启动时不显示提示信息](start-gdb-silently.md)
+* [退出时不显示提示信息](quit-gdb-silently.md)
 
 # 函数
 * [列出函数的名字](info-function.md)
@@ -53,6 +49,8 @@
 * [打印寄存器的值](print-registers.md)
 
 # 其它
+* [配置gdb init文件](config-gdbinit.md)
+* [命令行选项的格式](option-format.md)
 * [保存历史命令](save-history-commands.md)
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [使用命令的缩写形式](use-short-command.md)
