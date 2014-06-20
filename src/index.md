@@ -6,6 +6,7 @@
 
 # 显示相关信息
 * [显示gdb版本信息](show-version.md)
+* [显示gdb版权相关信息](show-copying-warranty.md)
 
 # 函数
 * [列出函数的名字](info-function.md)
