@@ -6,10 +6,10 @@
 
 	int func(void)
 	{
-	        int i = 0;
+	    int i = 0;
 	
-	        i += 2;
-	        i *= 10;
+	    i += 2;
+	    i *= 10;
 	
 	    return i;
 	}
