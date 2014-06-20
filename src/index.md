@@ -51,6 +51,10 @@
 * [将源程序和汇编指令映射起来](map-source-code-and-assembly.md)
 * [打印寄存器的值](print-registers.md)
 
+# 改变程序的执行
+* [跳转到指定位置执行](jump.md)
+* [修改被调试程序的二进制文件](patch-program.md)
+
 # 其它
 * [配置gdb init文件](config-gdbinit.md)
 * [命令行选项的格式](option-format.md)
@@ -61,5 +65,4 @@
 * [在gdb中执行cd和pwd命令](run-cd-pwd.md)
 * [设置命令提示符](set-prompt.md)
 * [设置被调试程序的参数](set-program-args.md)
-* [修改被调试程序的二进制文件](patch-program.md)
 
