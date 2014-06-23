@@ -55,6 +55,7 @@
 # 改变程序的执行
 * [跳转到指定位置执行](jump.md)
 * [修改被调试程序的二进制文件](patch-program.md)
+* [修改PC寄存器的值](modify-pc-register.md)
 
 # 其它
 * [配置gdb init文件](config-gdbinit.md)
