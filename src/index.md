@@ -37,6 +37,7 @@
 # 多进程/线程
 * [调试已经运行的进程](attach-process.md)
 * [调试子进程](set-follow-fork-mode-child.md)
+* [同时调试父进程和子进程](set-detach-on-fork.md)
 * [查看线程信息](print-threads.md)
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 * [不显示线程启动和退出信息](show-print-thread-events.md)
