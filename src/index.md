@@ -40,6 +40,7 @@
 * [查看线程信息](print-threads.md)
 * [在Solaris上使用maintenance命令查看线程信息](maint-info-sol-threads.md)
 * [不显示线程启动和退出信息](show-print-thread-events.md)
+* [只允许一个线程运行](set-scheduler-locking-on.md)
 
 # core dump文件
 * [为调试进程产生core dump文件](generate-core-dump-file.md)
