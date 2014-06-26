@@ -68,6 +68,23 @@
 	(gdb) i line 13
 	Line 13 of "foo.c" starts at address 0x4004e9 <main+37> and ends at 0x40050c <main+72>.	
 
+
+如果只想查看这一条语句对应的汇编代码，可以使用“`disassemble [Start],[End]`”命令：  
+
+	(gdb) disassemble 0x4004e9, 0x40050c
+	Dump of assembler code from 0x4004e9 to 0x40050c:
+	   0x00000000004004e9 <main+37>:        mov    -0x14(%rbp),%esi
+	   0x00000000004004ec <main+40>:        mov    -0x18(%rbp),%ecx
+	   0x00000000004004ef <main+43>:        mov    -0x1c(%rbp),%edx
+	   0x00000000004004f2 <main+46>:        mov    -0x20(%rbp),%ebx
+	   0x00000000004004f5 <main+49>:        mov    $0x400618,%eax
+	   0x00000000004004fa <main+54>:        mov    %esi,%r8d
+	   0x00000000004004fd <main+57>:        mov    %ebx,%esi
+	   0x00000000004004ff <main+59>:        mov    %rax,%rdi
+	   0x0000000000400502 <main+62>:        mov    $0x0,%eax
+	   0x0000000000400507 <main+67>:        callq  0x4003b8 <printf@plt>
+	End of assembler dump.
+
 详情参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Machine-Code.html)
 
 ## 贡献者
