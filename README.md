@@ -5,10 +5,6 @@
 ## 在线阅读
 [开始阅读](<https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md>)
 
-## 快速参考
-
-[GDB命令卡片](https://github.com/hellogcc/100-gdb-tips/blob/master/refcard.pdf)
-
 ## 如何参与
 
 直接发PULL REQUEST，或与我们联系。
@@ -44,4 +40,9 @@ md文件编写可以使用在线所见即所得编辑器 https://www.zybuluo.com
 ## 致谢
 
 - 各位参与者
+
+## 其它资源
+
+- [GDB在线手册](https://sourceware.org/gdb/onlinedocs/gdb)
+- [GDB命令卡片](https://github.com/hellogcc/100-gdb-tips/blob/master/refcard.pdf)
 

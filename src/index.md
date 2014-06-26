@@ -69,4 +69,5 @@
 * [在gdb中执行cd和pwd命令](run-cd-pwd.md)
 * [设置命令提示符](set-prompt.md)
 * [设置被调试程序的参数](set-program-args.md)
+* [设置被调试程序的环境变量](set-program-env.md)
 
