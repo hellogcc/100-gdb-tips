@@ -103,8 +103,23 @@
 
 在使用“`set detach-on-fork off`”命令后，用“`i inferiors`”（`i`是`info`命令缩写）查看进程状态，可以看到父子进程都在被gdb调试的状态，前面显示“*”是正在调试的进程。当父进程退出后，用“`inferior infno`”切换到子进程去调试。
 
-这个命令目前Linux支持，其它很多操作系统都不支持，使用时请注意。参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Forks.html)
+这个命令目前Linux支持，其它很多操作系统都不支持，使用时请注意。参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Forks.html)  
 
+此外，如果想让父子进程都同时运行，可以使用“`set schedule-multiple on`”（默认`schedule-multiple`是`off`）命令，仍以上述代码为例：  
+
+	(gdb) set detach-on-fork off
+	(gdb) set schedule-multiple on
+	(gdb) start
+	Temporary breakpoint 1 at 0x40059c: file a.c, line 7.
+	Starting program: /data2/home/nanxiao/a
+	
+	Temporary breakpoint 1, main () at a.c:7
+	7           pid = fork();
+	(gdb) n
+	[New process 26597]
+	Child
+可以看到打印出了“Child”，证明子进程也在运行了。  
+参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/All_002dStop-Mode.html#All_002dStop-Mode)
 ## 贡献者
 
 nanxiao
