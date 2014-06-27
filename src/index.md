@@ -59,10 +59,13 @@
 * [修改被调试程序的二进制文件](patch-program.md)
 * [修改PC寄存器的值](modify-pc-register.md)
 
-# 其它
+# 脚本
 * [配置gdb init文件](config-gdbinit.md)
-* [命令行选项的格式](option-format.md)
+* [按何种方式解析脚本文件](set-script-extension.md)
 * [保存历史命令](save-history-commands.md)
+
+# 其它
+* [命令行选项的格式](option-format.md)
 * [支持预处理器宏信息](preprocessor-macro.md)
 * [使用命令的缩写形式](use-short-command.md)
 * [在gdb中执行shell命令和make](run-shell-command.md)
