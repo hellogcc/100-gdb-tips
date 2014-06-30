@@ -24,6 +24,7 @@
 	bt -> backtrace
 	disas -> disassemble
 	fin -> finish
+	ig -> ignore
 	ni -> nexti
 	si -> stepi
 	tb -> tbreak
