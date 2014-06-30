@@ -20,6 +20,7 @@
 * [在文件行号上打断点](break-on-linenum.md)
 * [保存已经设置的断点](save-breakpoints.md)
 * [设置临时断点](set-tbreak.md)
+* [设置条件断点](set-condition-break.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
