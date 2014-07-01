@@ -86,7 +86,7 @@ gdb可以使用“`watch expr thread threadnum`”命令设置观察点只针对
 
 
 可以看到，使用“`wa a thread 2`”命令（`wa`是`watch`命令的缩写）以后，只有`thread1_func`改变`a`的值才会让程序停下来。  
-参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Set-Watchpoints.html).
+需要注意的是这种针对特定线程设置观察点方式只对硬件观察点才生效，参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Set-Watchpoints.html).
 
 ## 贡献者
 
