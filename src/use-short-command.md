@@ -28,6 +28,7 @@
 	ni -> nexti
 	si -> stepi
 	tb -> tbreak
+	wa -> watch
 	
 另外，如果直接按回车键，会重复执行上一次的命令。
 

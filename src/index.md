@@ -13,7 +13,7 @@
 * [进入不带调试信息的函数](set-step-mode-on.md)
 * [退出正在调试的函数](finish-and-return.md)
 
-# 断点
+# 断点/观察点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
 * [在程序地址上打断点](break-on-address.md)
 * [在程序入口处打断点](break-on-entry.md)
@@ -22,6 +22,7 @@
 * [设置临时断点](set-tbreak.md)
 * [设置条件断点](set-condition-break.md)
 * [忽略断点](ignore-break.md)
+* [设置观察点](set-watchpoint.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
