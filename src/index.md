@@ -24,6 +24,7 @@
 * [忽略断点](ignore-break.md)
 * [设置观察点](set-watchpoint.md)
 * [设置观察点只针对特定线程生效](set-watchpoint-on-specified-thread.md)
+* [设置读观察点](set-read-watchpoint.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)

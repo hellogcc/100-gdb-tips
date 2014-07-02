@@ -26,6 +26,7 @@
 	fin -> finish
 	ig -> ignore
 	ni -> nexti
+	rw -> rwatch
 	si -> stepi
 	tb -> tbreak
 	wa -> watch
