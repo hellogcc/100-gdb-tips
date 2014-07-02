@@ -28,7 +28,7 @@
 	        pthread_t t1, t2;
 	
 	        pthread_create(&t1, NULL, thread1_func, "Thread 1");
-			pthread_create(&t2, NULL, thread1_func, "Thread 2");
+			pthread_create(&t2, NULL, thread2_func, "Thread 2");
 	
 	        sleep(1000);
 	        return;
@@ -46,21 +46,21 @@ gdb可以使用“`watch expr thread threadnum`”命令设置观察点只针对
 	Temporary breakpoint 1, main () at a.c:28
 	28              pthread_create(&t1, NULL, thread1_func, "Thread 1");
 	(gdb) n
-	[New Thread 0x7ffff782c700 (LWP 7746)]
-	29                      pthread_create(&t2, NULL, thread1_func, "Thread 2");
-	(gdb) n
-	[New Thread 0x7ffff6e2b700 (LWP 7765)]
+	[New Thread 0x7ffff782c700 (LWP 25443)]
+	29              pthread_create(&t2, NULL, thread2_func, "Thread 2");
+	(gdb)
+	[New Thread 0x7ffff6e2b700 (LWP 25444)]
 	31              sleep(1000);
 	(gdb) i threads
 	  Id   Target Id         Frame
-	  3    Thread 0x7ffff6e2b700 (LWP 7765) 0x00007ffff7915911 in clone () from /lib64/libc.so.6
-	  2    Thread 0x7ffff782c700 (LWP 7746) 0x00007ffff78d9bcd in nanosleep () from /lib64/libc.so.6
-	* 1    Thread 0x7ffff7fe9700 (LWP 7716) main () at a.c:31
+	  3    Thread 0x7ffff6e2b700 (LWP 25444) 0x00007ffff7915911 in clone () from /lib64/libc.so.6
+	  2    Thread 0x7ffff782c700 (LWP 25443) 0x00007ffff78d9bcd in nanosleep () from /lib64/libc.so.6
+	* 1    Thread 0x7ffff7fe9700 (LWP 25413) main () at a.c:31
 	(gdb) wa a thread 2
 	Hardware watchpoint 2: a
 	(gdb) c
 	Continuing.
-	[Switching to Thread 0x7ffff782c700 (LWP 7746)]
+	[Switching to Thread 0x7ffff782c700 (LWP 25443)]
 	Hardware watchpoint 2: a
 	
 	Old value = 1
