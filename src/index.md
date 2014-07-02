@@ -25,6 +25,7 @@
 * [设置观察点](set-watchpoint.md)
 * [设置观察点只针对特定线程生效](set-watchpoint-on-specified-thread.md)
 * [设置读观察点](set-read-watchpoint.md)
+* [设置读写观察点](set-read-write-watchpoint.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)

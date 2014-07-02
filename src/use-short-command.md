@@ -21,6 +21,7 @@
 
 也有使用两个或几个字母的，比如：  
 
+	aw -> awatch
 	bt -> backtrace
 	disas -> disassemble
 	fin -> finish
