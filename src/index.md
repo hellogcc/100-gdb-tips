@@ -37,6 +37,7 @@
 * [打印静态变量的值](print-static-variables.md)
 * [打印变量的类型和所在文件](print-variable-info.md)
 * [每行打印一个结构体成员](set-print-pretty-on.md)
+* [打印内存的值](examine-memory.md)
 * [按照派生类型打印对象](print-derived-type.md)
 * [指定程序的输入输出设备](set-io-tty.md)
 
