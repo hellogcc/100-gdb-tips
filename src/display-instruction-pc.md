@@ -17,7 +17,7 @@
 
 ## 技巧
 
-使用gdb调试汇编程序时，可以用“`display /i pc`”命令显示当程序停止时，将要执行的汇编指令。以上面程序为例：
+使用gdb调试汇编程序时，可以用“`display /i $pc`”命令显示当程序停止时，将要执行的汇编指令。以上面程序为例：
 
 	(gdb) start
 	Temporary breakpoint 1 at 0x400488: file a.c, line 9.
