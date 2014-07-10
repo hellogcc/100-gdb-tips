@@ -60,6 +60,7 @@
 * [在函数的第一条汇编指令打断点](break-on-first-assembly-code.md)
 * [自动反汇编后面要执行的代码](disassemble-next-line.md)
 * [将源程序和汇编指令映射起来](map-source-code-and-assembly.md)
+* [显示将要执行的汇编指令](display-instruction-pc.md)
 * [打印寄存器的值](print-registers.md)
 
 # 改变程序的执行
