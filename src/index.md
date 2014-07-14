@@ -83,4 +83,5 @@
 * [设置命令提示符](set-prompt.md)
 * [设置被调试程序的参数](set-program-args.md)
 * [设置被调试程序的环境变量](set-program-env.md)
+* [得到命令的帮助信息](help.md)
 
