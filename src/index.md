@@ -41,6 +41,7 @@
 * [打印内存的值](examine-memory.md)
 * [按照派生类型打印对象](print-derived-type.md)
 * [指定程序的输入输出设备](set-io-tty.md)
+* [使用“$_”和“$__”变量](use-$_-$__-variables.md)
 
 # 多进程/线程
 * [调试已经运行的进程](attach-process.md)
