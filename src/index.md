@@ -72,6 +72,9 @@
 * [修改PC寄存器的值](modify-pc-register.md)
 * [使用断点命令改变程序的执行](breakpoint-command.md)
 
+# 共享库
+* [显示共享链接库信息](info_sharedlibrary.md)
+
 # 脚本
 * [配置gdb init文件](config-gdbinit.md)
 * [按何种方式解析脚本文件](set-script-extension.md)
