@@ -72,6 +72,9 @@
 * [修改PC寄存器的值](modify-pc-register.md)
 * [使用断点命令改变程序的执行](breakpoint-command.md)
 
+# 信号
+* [查看信号处理信息](print-signals.md)
+
 # 共享库
 * [显示共享链接库信息](info_sharedlibrary.md)
 
