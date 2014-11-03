@@ -74,6 +74,7 @@
 
 # 信号
 * [查看信号处理信息](print-signals.md)
+* [信号发生时是否暂停程序](stop-signal.md)
 
 # 共享库
 * [显示共享链接库信息](info_sharedlibrary.md)
