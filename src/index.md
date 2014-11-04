@@ -73,7 +73,7 @@
 * [使用断点命令改变程序的执行](breakpoint-command.md)
 
 # 信号
-* [查看信号处理信息](print-signals.md)
+* [查看信号处理信息](info-signals.md)
 * [信号发生时是否暂停程序](stop-signal.md)
 
 # 共享库
