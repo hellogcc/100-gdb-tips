@@ -76,6 +76,7 @@
 * [查看信号处理信息](info-signals.md)
 * [信号发生时是否暂停程序](stop-signal.md)
 * [信号发生时是否打印信号信息](print-signal.md)
+* [信号发生时是否把信号丢给程序处理](pass-signal.md)
 
 # 共享库
 * [显示共享链接库信息](info_sharedlibrary.md)
