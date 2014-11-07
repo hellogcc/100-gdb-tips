@@ -78,6 +78,7 @@
 * [信号发生时是否打印信号信息](print-signal.md)
 * [信号发生时是否把信号丢给程序处理](pass-signal.md)
 * [给程序发送信号](send-signal.md)
+* [使用“$_siginfo”变量](use-$_siginfo-variable.md)
 
 # 共享库
 * [显示共享链接库信息](info_sharedlibrary.md)
