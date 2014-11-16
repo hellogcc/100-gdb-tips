@@ -13,6 +13,7 @@
 * [进入不带调试信息的函数](set-step-mode-on.md)
 * [退出正在调试的函数](finish-and-return.md)
 * [直接执行函数](call-func.md)
+* [打印函数堆栈帧信息](info-frame.md)
 
 # 断点/观察点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
