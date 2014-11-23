@@ -16,6 +16,7 @@
 * [打印函数堆栈帧信息](info-frame.md)
 * [打印尾调用堆栈帧信息](set-debug-entry-values.md)
 * [选择函数堆栈帧](select-frame.md)
+* [向上或向下切换函数堆栈帧](up-down-select-frame.md)
 
 # 断点/观察点
 * [在匿名空间设置断点](break-anonymous-namespace.md)
