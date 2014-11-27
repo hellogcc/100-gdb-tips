@@ -48,6 +48,7 @@
 * [指定程序的输入输出设备](set-io-tty.md)
 * [使用“$\\_”和“$\\__”变量](use-$_-$__-variables.md)
 * [打印ASCII和宽字符字符串](print-ascii-and-wide-string.md)
+* [打印程序动态分配内存的信息](print-malloc-memory.md)
 
 # 多进程/线程
 * [调试已经运行的进程](attach-process.md)
