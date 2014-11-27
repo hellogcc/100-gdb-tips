@@ -135,7 +135,7 @@
 	$25 = 0
 
 可以看到gdb输出了动态分配内存的变化信息。   
-参见[stacloverflow](http://stackoverflow.com/questions/1471226/most-tricky-useful-commands-for-gdb-debugger).
+参见[stackoverflow](http://stackoverflow.com/questions/1471226/most-tricky-useful-commands-for-gdb-debugger).
 
 ## 贡献者
 
