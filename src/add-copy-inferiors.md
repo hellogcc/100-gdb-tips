@@ -92,7 +92,7 @@ gdb支持在一个会话中同时调试多个程序。以上面程序为例，�
 	  3    <null>            /home/nanxiao/b
 	* 2    process 1590      /home/nanxiao/b
 	  1    process 1586      /home/nanxiao/a
-可以看到可以调试了`b`程序了。
+可以看到可以调试`b`程序了。
 
 另外也可用“`clone-inferior [ -copies n ] [ infno ]`”克隆现有的`inferior`，其中`n`默认为1，`infno`默认为当前的`inferior`：  
 
@@ -109,7 +109,7 @@ gdb支持在一个会话中同时调试多个程序。以上面程序为例，�
 	  3    <null>            /home/nanxiao/b
 	* 2    process 1590      /home/nanxiao/b
 	  1    process 1586      /home/nanxiao/a
-
+可以看到又多了一个`b`程序。
 
 参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Inferiors-and-Programs.html).
 
