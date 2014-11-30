@@ -60,6 +60,7 @@
 * [不显示线程启动和退出信息](show-print-thread-events.md)
 * [只允许一个线程运行](set-scheduler-locking-on.md)
 * [使用“$_thread”变量](use-$_thread-variable.md)
+* [一个gdb会话中同时调试多个程序](add-copy-inferiors.md)
 
 # core dump文件
 * [为调试进程产生core dump文件](generate-core-dump-file.md)
