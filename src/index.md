@@ -7,6 +7,10 @@
 # 变量
 * [设置变量的值](set-var.md)
 
+# 字符串
+* [打印ASCII和宽字符字符串](print-ascii-and-wide-string.md)
+* [改变字符串的值](change-string.md)
+
 # 函数
 * [列出函数的名字](info-function.md)
 * [是否进入带调试信息的函数](step-and-next-function.md)
@@ -47,7 +51,6 @@
 * [按照派生类型打印对象](print-derived-type.md)
 * [指定程序的输入输出设备](set-io-tty.md)
 * [使用“$\\_”和“$\\__”变量](use-$_-$__-variables.md)
-* [打印ASCII和宽字符字符串](print-ascii-and-wide-string.md)
 * [打印程序动态分配内存的信息](print-malloc-memory.md)
 * [打印调用栈帧中变量的值](print-frame-variables.md)
 
