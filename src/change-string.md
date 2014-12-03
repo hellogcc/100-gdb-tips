@@ -1,40 +1,39 @@
-# 为fork调用设置catchpoint
+# 改变字符串的值
 ## 例子
 	#include <stdio.h>
-	#include <stdlib.h>
-	#include <sys/types.h>
-	#include <unistd.h>
-	
-	int main(void) {
-	    pid_t pid;
-	
-	    pid = fork();
-	    if (pid < 0)
-	    {
-	        exit(1);
-	    }
-	    else if (pid > 0)
-	    {
-	        exit(0);
-	    }
-	    printf("hello world\n");
-	    return 0;
+
+	int main(void)
+	{
+		char p1[] = "Sam";
+		char *p2 = "Bob";
+		
+		printf("p1 is %s, p2 is %s\n", p1, p2);
+		return 0;
 	}
 
 
 
 ## 技巧
-使用gdb调试程序时，可以用“`catch fork`”命令为`fork`调用设置`catchpoint`，以上面程序为例：  
+使用gdb调试程序时，可以用“`set`”命令改变字符串的值，以上面程序为例：  
 
-	(gdb) catch fork
-	Catchpoint 1 (fork)
-	(gdb) r
-	Starting program: /home/nan/a 
+	(gdb) start
+	Temporary breakpoint 1 at 0x8050af0: file a.c, line 5.
+	Starting program: /data1/nan/a 
+	[Thread debugging using libthread_db enabled]
+	[New Thread 1 (LWP 1)]
+	[Switching to Thread 1 (LWP 1)]
 	
-	Catchpoint 1 (forked process 33499), 0x00000034e42acdbd in fork () from /lib64/libc.so.6
-	(gdb) bt
-	#0  0x00000034e42acdbd in fork () from /lib64/libc.so.6
-	#1  0x0000000000400561 in main () at a.c:9
+	Temporary breakpoint 1, main () at a.c:5
+	5               char p1[] = "Sam";
+	(gdb) n
+	6               char *p2 = "Bob";
+	(gdb) 
+	8               printf("p1 is %s, p2 is %s\n", p1, p2);
+	(gdb) set main::p1="Jil"
+	(gdb) set main::p2="Bill"
+	(gdb) n
+	p1 is Jil, p2 is Bill
+	9               return 0;
 可以看到执行`p1`和`p2`的字符串都发生了变化。也可以通过访问内存地址的方法改变字符串的值：  
 
 	Starting program: /data1/nan/a 
