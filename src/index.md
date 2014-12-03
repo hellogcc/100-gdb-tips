@@ -22,7 +22,7 @@
 * [选择函数堆栈帧](select-frame.md)
 * [向上或向下切换函数堆栈帧](up-down-select-frame.md)
 
-# 断点/观察点
+# 断点/观察点/Catchpoint
 * [在匿名空间设置断点](break-anonymous-namespace.md)
 * [在程序地址上打断点](break-on-address.md)
 * [在程序入口处打断点](break-on-entry.md)
@@ -35,6 +35,7 @@
 * [设置观察点只针对特定线程生效](set-watchpoint-on-specified-thread.md)
 * [设置读观察点](set-read-watchpoint.md)
 * [设置读写观察点](set-read-write-watchpoint.md)
+* [为fork调用设置catchpoint](catch-fork.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
