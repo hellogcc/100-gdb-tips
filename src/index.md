@@ -36,6 +36,7 @@
 * [设置读观察点](set-read-watchpoint.md)
 * [设置读写观察点](set-read-write-watchpoint.md)
 * [为fork调用设置catchpoint](catch-fork.md)
+* [为vfork调用设置catchpoint](catch-vfork.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
