@@ -43,6 +43,7 @@
 * [为fork调用设置catchpoint](catch-fork.md)
 * [为vfork调用设置catchpoint](catch-vfork.md)
 * [为exec调用设置catchpoint](catch-exec.md)
+* [为系统调用设置catchpoint](catch-syscall.md)
 
 # 打印
 * [打印STL容器中的内容](print-STL-container.md)
