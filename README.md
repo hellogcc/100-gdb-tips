@@ -46,4 +46,5 @@ md文件编写可以使用在线所见即所得编辑器 https://www.zybuluo.com
 - [GDB在线手册](https://sourceware.org/gdb/onlinedocs/gdb)
 - [GDB命令卡片](https://github.com/hellogcc/100-gdb-tips/blob/master/refcard.pdf)
 - [Gdbinit for OS X, iOS and others - x86, x86_64 and ARM](https://github.com/gdbinit/Gdbinit)
+- [dotgdb：关于底层调试和反向工程的gdb脚本集](https://github.com/dholm/dotgdb)
 
