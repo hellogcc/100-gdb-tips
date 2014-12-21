@@ -50,7 +50,7 @@
 	No debugger, continuing
 	[Inferior 1 (process 11491) exited normally]
 
-可以看到，通过修改`rax`寄存器的值，达到修改返回值的目的，从而让gdb可以继续调试程序。  
+可以看到，通过修改`rax`寄存器的值，达到修改返回值的目的，从而让gdb可以继续调试程序（打印“`No debugger, continuing`”）。  
 详细过程，可以参见这篇文章[避開 PTRACE_TRACME 反追蹤技巧](http://blog.linux.org.tw/~jserv/archives/2011_08.html).
 
 ## 贡献者
