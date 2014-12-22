@@ -23,6 +23,7 @@
 
 	aw -> awatch
 	bt -> backtrace
+	dir -> directory
 	disas -> disassemble
 	fin -> finish
 	ig -> ignore
