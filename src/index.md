@@ -110,6 +110,10 @@
 * [按何种方式解析脚本文件](set-script-extension.md)
 * [保存历史命令](save-history-commands.md)
 
+# 源文件
+* [设置源文件查找路径](directory.md)
+* [替换查找源文件的目录](substitute-path.md)
+
 # 其它
 * [命令行选项的格式](option-format.md)
 * [支持预处理器宏信息](preprocessor-macro.md)
@@ -121,5 +125,5 @@
 * [设置被调试程序的环境变量](set-program-env.md)
 * [得到命令的帮助信息](help.md)
 * [记录执行gdb的过程](set-logging.md)
-* [设置源文件查找路径](directory.md)
+
 
