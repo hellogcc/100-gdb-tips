@@ -3,6 +3,7 @@
 * [显示gdb版权相关信息](show-copying-warranty.md)
 * [启动时不显示提示信息](start-gdb-silently.md)
 * [退出时不显示提示信息](quit-gdb-silently.md)
+* [输出信息多时不会暂停输出](set-pagination-off.md)
 
 # 变量
 * [设置变量的值](set-var.md)
