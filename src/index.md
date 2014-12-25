@@ -115,6 +115,9 @@
 * [设置源文件查找路径](directory.md)
 * [替换查找源文件的目录](substitute-path.md)
 
+# 图形化界面
+* [进入和退出图形化调试界面](tui-mode.md)
+
 # 其它
 * [命令行选项的格式](option-format.md)
 * [支持预处理器宏信息](preprocessor-macro.md)
