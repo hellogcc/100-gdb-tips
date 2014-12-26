@@ -76,6 +76,7 @@
 * [使用“$_thread”变量](use-$_thread-variable.md)
 * [一个gdb会话中同时调试多个程序](add-copy-inferiors.md)
 * [打印程序进程空间信息](maint-info-program-space.md)
+* [使用“$_exitcode”变量](use-$_exitcode.md)
 
 # core dump文件
 * [为调试进程产生core dump文件](generate-core-dump-file.md)
