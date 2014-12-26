@@ -119,6 +119,7 @@
 * [进入和退出图形化调试界面](tui-mode.md)
 * [显示汇编代码窗口](layout-asm.md)
 * [显示寄存器窗口](layout-regs.md)
+* [调整窗口大小](winheight.md)
 
 # 其它
 * [命令行选项的格式](option-format.md)

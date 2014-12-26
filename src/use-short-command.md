@@ -32,6 +32,7 @@
 	si -> stepi
 	tb -> tbreak
 	wa -> watch
+	win -> winheight
 	
 另外，如果直接按回车键，会重复执行上一次的命令。
 
