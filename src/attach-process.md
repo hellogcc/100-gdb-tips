@@ -54,6 +54,17 @@
 	#1  0xfeedcae4 in sleep () from /usr/lib/libc.so.1
 	#2  0x080509ef in main () at a.c:17
 
+如果嫌每次ps查看进程号比较麻烦，请尝试如下脚本
+
+```shell
+# 保存为xgdb.sh（添加可执行权限）
+# 用法 xgdb.sh a 
+prog_bin=$1
+running_name=$(basename $prog_bin)
+pid=$(/sbin/pidof $running_name)
+gdb attach $pid
+```
+
 	
 另一种是先启动gdb，然后用“attach”命令“附着”在进程上：
 
