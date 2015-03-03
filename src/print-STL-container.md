@@ -69,6 +69,32 @@ gdb 7.0之后，可以使用gcc提供的python脚本，来改善显示结果：
 
 	(gdb) p *(vec._M_impl._M_start)@vec.size()
 	$2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	
+## 技巧三
+
+将 [dbinit_stl_views](http://www.yolinux.com/TUTORIALS/src/dbinit_stl_views-1.03.txt ) 下载下来,，执行命令
+```shell
+cat dbinit_stl_views-1.03.txt >> ~/.gdbinit
+```
+即可
+一些常用的容器及其对应的命令关系
+```shell
+std::vector<T>  pvector stl_variable 
+std::list<T>  plist stl_variable T 
+std::map<T,T>  pmap stl_variable 
+std::multimap<T,T>  pmap stl_variable 
+std::set<T>  pset stl_variable T 
+std::multiset<T>  pset stl_variable 
+std::deque<T>  pdequeue stl_variable 
+std::stack<T>  pstack stl_variable 
+std::queue<T>  pqueue stl_variable 
+std::priority_queue<T>  ppqueue stl_variable 
+std::bitset<n><td>  pbitset stl_variable 
+std::string  pstring stl_variable 
+std::widestring  pwstring stl_variable  
+```
+更多详情，参考配置中的帮助
+
 
 ## 贡献者
 

@@ -38,7 +38,13 @@
 	10              gmtime_r(&now, &gmt);
 	(gdb) q
 
-可以看到，使用`directory`命令设置源文件的查找目录后，gdb就可以正常地解析源代码了。  
+可以看到，使用`directory`（或`dir`)命令设置源文件的查找目录后，gdb就可以正常地解析源代码了。  
+
+如果希望在gdb启动时，加载code的位置，避免每次在gdb中再次输入命令，可以使用gdb的`-d` 参数
+```shell
+gdb -q a.out -d /search/code/some 
+```
+
 参见[gdb手册](https://sourceware.org/gdb/onlinedocs/gdb/Source-Path.html).
 
 ## 贡献者
