@@ -89,6 +89,7 @@
 * [将源程序和汇编指令映射起来](map-source-code-and-assembly.md)
 * [显示将要执行的汇编指令](display-instruction-pc.md)
 * [打印寄存器的值](print-registers.md)
+* [显示程序原始机器码](disassemble-raw-machine-code.md)
 
 # 改变程序的执行
 * [跳转到指定位置执行](jump.md)
