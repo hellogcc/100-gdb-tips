@@ -5,13 +5,6 @@
 * [退出时不显示提示信息](quit-gdb-silently.md)
 * [输出信息多时不会暂停输出](set-pagination-off.md)
 
-# 变量
-* [设置变量的值](set-var.md)
-
-# 字符串
-* [打印ASCII和宽字符字符串](print-ascii-and-wide-string.md)
-* [改变字符串的值](change-string.md)
-
 # 函数
 * [列出函数的名字](info-function.md)
 * [是否进入带调试信息的函数](step-and-next-function.md)
@@ -48,6 +41,7 @@
 * [通过为ptrace调用设置catchpoint破解anti-debugging的程序](catch-ptrace.md)
 
 # 打印
+* [打印ASCII和宽字符字符串](print-ascii-and-wide-string.md)
 * [打印STL容器中的内容](print-STL-container.md)
 * [打印大数组中的内容](print-large-array.md)
 * [打印数组中任意连续元素值](print-consecutive-array-elements.md)
@@ -92,10 +86,12 @@
 * [显示程序原始机器码](disassemble-raw-machine-code.md)
 
 # 改变程序的执行
-* [跳转到指定位置执行](jump.md)
-* [修改被调试程序的二进制文件](patch-program.md)
+* [改变字符串的值](change-string.md)
+* [设置变量的值](set-var.md)
 * [修改PC寄存器的值](modify-pc-register.md)
+* [跳转到指定位置执行](jump.md)
 * [使用断点命令改变程序的执行](breakpoint-command.md)
+* [修改被调试程序的二进制文件](patch-program.md)
 
 # 信号
 * [查看信号处理信息](info-signals.md)
@@ -134,5 +130,4 @@
 * [设置被调试程序的环境变量](set-program-env.md)
 * [得到命令的帮助信息](help.md)
 * [记录执行gdb的过程](set-logging.md)
-
 
