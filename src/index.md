@@ -46,6 +46,7 @@
 * [打印大数组中的内容](print-large-array.md)
 * [打印数组中任意连续元素值](print-consecutive-array-elements.md)
 * [打印数组的索引下标](print-array-indexes.md)
+* [格式化打印数组](print-formatted-array.md)
 * [打印函数局部变量的值](print-local-variables.md)
 * [打印进程内存信息](print-process-memory.md)
 * [打印静态变量的值](print-static-variables.md)
