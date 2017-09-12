@@ -17,8 +17,7 @@
 	int main(int argc, char* argv[])
 	{
 	        pthread_t t1;
-            char thread_name[] = "Thread 1";
-	        pthread_create(&t1, NULL, thread1_func, thread_name);
+	        pthread_create(&t1, NULL, thread1_func, NULL);
 
 	        sleep(1000);
 	        return 0;
