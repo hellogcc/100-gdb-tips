@@ -33,7 +33,7 @@
 
 	int main(void)
 	{
-	    return 0;
+	    return 1;
 	}
 接着调试：  
 
