@@ -45,14 +45,12 @@ gdb 7.0之后，可以使用gcc提供的python脚本，来改善显示结果：
 1. 获得python脚本，建议使用gcc默认安装的
 
 		sudo find / -name "*libstdcxx*"
-2. 若本机查找不到python脚本，建议下载gcc对应版本源码包，相对目录如下
+2. 若本机查找不到python脚本，建议下载gcc对应版本源码包
 
-		gcc-4.8.1/libstdc++-v3/python
-3. 也可直接下载最新版本
+    gcc git 仓库地址：https://github.com/gcc-mirror/gcc
 
-		svn co svn://gcc.gnu.org/svn/gcc/trunk/libstdc++-v3/python
-
-4. 将如下代码添加到.gdbinit文件中（假设python脚本位于 /home/maude/gdb_printers/ 下）
+    python 脚本位于 libstdc++-v3/python 目录下
+3. 将如下代码添加到.gdbinit文件中（假设python脚本位于 /home/maude/gdb_printers/ 下）
 
 		python
 		import sys
