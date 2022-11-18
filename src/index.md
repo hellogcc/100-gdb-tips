@@ -133,4 +133,5 @@
 * [设置被调试程序的环境变量](set-program-env.md)
 * [得到命令的帮助信息](help.md)
 * [记录执行gdb的过程](set-logging.md)
+* [打印C++虚表及其内容](show-vtbl-content.md)
 
